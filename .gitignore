@@ -1,0 +1,31 @@
+# Dependencies
+.pnp.js
+/.pnp
+/node_modules
+
+# Production
+/build
+/src/api/logs
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+.DS_Store
+.test
+coverage
+coverage.json
+npm-debug.log*
+typechain
+yarn-error.log*
+yarn-debug.log*
+soljson*
+
+# Hardhat files
+artifacts
+cache
+json

@@ -1,0 +1,26 @@
+{
+  "name": "contracts",
+  "version": "1.0.3",
+  "description": "Solidity smart contracts for the Saucy DeFi ecosystem",
+  "main": "index.js",
+  "public": false,
+  "scripts": {
+    "deploy:all": "npx hardhat run scripts/all.deploy.js --network localhost",
+    "deploy:seth": "npx hardhat run scripts/seth.deploy.js --network localhost"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saucy-DeFi/contracts.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Saucy-DeFi/contracts/issues"
+  },
+  "homepage": "https://saucydefi.com",
+  "devDependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "chai": "^4.3.6",
+    "hardhat": "^2.11.2"
+  }
+}
